@@ -1,0 +1,186 @@
+body {
+	 font-family: "Roboto Mono", serif;
+	 background: #F5F5F5;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Roboto Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
+
+
+
+p {
+	color: black;
+}
+
+h3 {
+	color: green;
+}
+
+.container {
+	max-width: 840px;
+	margin:20px auto;
+}
+
+.container > div {
+	margin: 20px auto;
+}
+
+
+
+.about-list-item {
+	font-style: italic;
+}
+
+#my-name{
+	color:black;
+}
+
+.grid-table {
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: auto auto;
+}
+
+
+@media (max-width: 600px) {
+	.grid-table {
+		grid-template-columns:auto;
+		grid-template-rows: auto auto auto auto auto auto;
+	}
+}
+
+.container {
+	max-width: 840px;
+	margin: 0 auto;
+}
+
+.intro {
+		text-align: center;
+}
+
+.about-grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.i-am, .i-like {
+	text-align: center;
+}
+
+.about-list {
+	list-style: none;
+}
+
+@media (max-width: 400px) {
+	.about-grid {
+	grid-template-columns: 100%;
+	}
+}
+
+.projects-heading {
+	text-align: center;
+}
+
+.projects-grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.projects-image {
+	justify-self:center;
+	padding: 4%
+	box-shadow: 0 4px 6px 0 rgb(34, 60, 80 0.16);
+	transition: all ease-in-out .2s;
+	border-radius: 5px;
+}
+
+@media (max-width: 650%) {
+	.projects-grid { 
+		grid-template-columns: 100%;
+	}
+}
+
+
+.links-and-contact {
+	display:grid;
+	grid-template-columns: 50% 50%;
+}
+
+.links {
+	align-self: center;
+	text-align: center;
+}
+
+
+.links-list {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+@media (max-width: 650px) {
+	.links-and-contact {
+		grid-template-columns: 100%;
+	}
+}
+
+.mavs250 {
+	box-shadow: 0 4px 6px 0 rgb(34, 60, 80, 0.16);
+	transition: all ease-in-out .2%;
+	border-radius: 50%;
+	width: 250px ;
+	height: 250px;
+}
+
+.mavs250:hover {
+	box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.16);
+}
+
+
+.project-image-wrapper {
+
+	text-align: center;
+}
+
+.projects-image:hover {
+	filter: brightness(.75);
+	box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.16)
+}
+
+form input, textarea {
+	padding: 5px;
+	border-radius: 5px;
+	width: 250px;
+}
+
+form input[type="submit"] {
+	width: 250px;
+}
+
+.submit-button-wrapper {
+	margin: 20px 0;
+
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+
+
+
+
+/*
+Element Selector h3, p, h1, h2 etc..
+Class Selector
+ID Selector	*/
+
+
